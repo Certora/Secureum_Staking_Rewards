@@ -14,7 +14,6 @@ certoraRun ./harness/StakingRewardsHarness.sol:StakingRewardsHarness \
 \
 --solc solc8.0 \
 --send_only \
---staging \
 --rule_sanity basic \
     $RULE \
     --msg "StakingRewards $1 -- $2" \
